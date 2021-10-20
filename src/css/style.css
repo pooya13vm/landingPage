@@ -13,6 +13,10 @@ body {
 #logo-section {
   margin: 6% 0 6% 0;
 }
+img {
+  width: 420px;
+  height: 145px;
+}
 
 #section-2 {
   display: flex;
@@ -190,15 +194,23 @@ a {
   }
 }
 
+#discrioption {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+
 .star-animated-box {
-  width: 130px;
-  height: 130px;
+  width: 22em;
+  height: 22em;
   display: grid;
   place-items: center;
-  background: #fff;
+  background: #3a394b;
   transform-style: preserve-3d;
-  transform: rotateZ(30deg);
-  overflow: hidden;
+  color: #fbba1d;
+  /* transform: rotateZ(30deg); */
+  /* overflow: hidden; */
 }
 .container {
   height: 20em;
@@ -218,902 +230,502 @@ a {
   transform-style: preserve-3d;
 }
 .container span:nth-child(1) {
-  transform: translate3d(
-    10em * sin(1.8deg) * cos(54deg),
-    10em * sin(1.8deg) * sin(54deg),
-    10em * cos(1.8deg)
-  );
+  transform: translate3d(0.18463em, 0.25412em, 9.99507em);
   animation: beat 2s linear infinite;
   animation-delay: -10ms;
 }
 .container span:nth-child(2) {
-  transform: translate3d(
-    10em * sin(3.6deg) * cos(108deg),
-    10em * sin(3.6deg) * sin(108deg),
-    10em * cos(3.6deg)
-  );
+  transform: translate3d(-0.19403em, 0.59717em, 9.98027em);
   animation: beat 2s linear infinite;
   animation-delay: -20ms;
 }
 .container span:nth-child(3) {
-  transform: translate3d(
-    10em * sin(5.4deg) * cos(162deg),
-    10em * sin(5.4deg) * sin(162deg),
-    10em * cos(5.4deg)
-  );
+  transform: translate3d(-0.89502em, 0.29081em, 9.95562em);
   animation: beat 2s linear infinite;
   animation-delay: -30ms;
 }
 .container span:nth-child(4) {
-  transform: translate3d(
-    10em * sin(7.2deg) * cos(216deg),
-    10em * sin(7.2deg) * sin(216deg),
-    10em * cos(7.2deg)
-  );
+  transform: translate3d(-1.01397em, -0.73669em, 9.92115em);
   animation: beat 2s linear infinite;
   animation-delay: -40ms;
 }
 .container span:nth-child(5) {
-  transform: translate3d(
-    10em * sin(9deg) * cos(270deg),
-    10em * sin(9deg) * sin(270deg),
-    10em * cos(9deg)
-  );
+  transform: translate3d(0em, -1.56434em, 9.87688em);
   animation: beat 2s linear infinite;
   animation-delay: -50ms;
 }
 .container span:nth-child(6) {
-  transform: translate3d(
-    10em * sin(10.8deg) * cos(324deg),
-    10em * sin(10.8deg) * sin(324deg),
-    10em * cos(10.8deg)
-  );
+  transform: translate3d(1.51595em, -1.1014em, 9.82287em);
   animation: beat 2s linear infinite;
   animation-delay: -60ms;
 }
 .container span:nth-child(7) {
-  transform: translate3d(
-    10em * sin(12.6deg) * cos(378deg),
-    10em * sin(12.6deg) * sin(378deg),
-    10em * cos(12.6deg)
-  );
+  transform: translate3d(2.07467em, 0.6741em, 9.75917em);
   animation: beat 2s linear infinite;
   animation-delay: -70ms;
 }
 .container span:nth-child(8) {
-  transform: translate3d(
-    10em * sin(14.4deg) * cos(432deg),
-    10em * sin(14.4deg) * sin(432deg),
-    10em * cos(14.4deg)
-  );
+  transform: translate3d(0.76849em, 2.36518em, 9.68583em);
   animation: beat 2s linear infinite;
   animation-delay: -80ms;
 }
 .container span:nth-child(9) {
-  transform: translate3d(
-    10em * sin(16.2deg) * cos(486deg),
-    10em * sin(16.2deg) * sin(486deg),
-    10em * cos(16.2deg)
-  );
+  transform: translate3d(-1.63987em, 2.25709em, 9.60294em);
   animation: beat 2s linear infinite;
   animation-delay: -90ms;
 }
 .container span:nth-child(10) {
-  transform: translate3d(
-    10em * sin(18deg) * cos(540deg),
-    10em * sin(18deg) * sin(540deg),
-    10em * cos(18deg)
-  );
+  transform: translate3d(-3.09017em, 0em, 9.51057em);
   animation: beat 2s linear infinite;
   animation-delay: -100ms;
 }
 .container span:nth-child(11) {
-  transform: translate3d(
-    10em * sin(19.8deg) * cos(594deg),
-    10em * sin(19.8deg) * sin(594deg),
-    10em * cos(19.8deg)
-  );
+  transform: translate3d(-1.99105em, -2.74045em, 9.40881em);
   animation: beat 2s linear infinite;
   animation-delay: -110ms;
 }
 .container span:nth-child(12) {
-  transform: translate3d(
-    10em * sin(21.6deg) * cos(648deg),
-    10em * sin(21.6deg) * sin(648deg),
-    10em * cos(21.6deg)
-  );
+  transform: translate3d(1.13757em, -3.50107em, 9.29776em);
   animation: beat 2s linear infinite;
   animation-delay: -120ms;
 }
 .container span:nth-child(13) {
-  transform: translate3d(
-    10em * sin(23.4deg) * cos(702deg),
-    10em * sin(23.4deg) * sin(702deg),
-    10em * cos(23.4deg)
-  );
+  transform: translate3d(3.7771em, -1.22725em, 9.17755em);
   animation: beat 2s linear infinite;
   animation-delay: -130ms;
 }
 .container span:nth-child(14) {
-  transform: translate3d(
-    10em * sin(25.2deg) * cos(756deg),
-    10em * sin(25.2deg) * sin(756deg),
-    10em * cos(25.2deg)
-  );
+  transform: translate3d(3.44463em, 2.50267em, 9.04827em);
   animation: beat 2s linear infinite;
   animation-delay: -140ms;
 }
 .container span:nth-child(15) {
-  transform: translate3d(
-    10em * sin(27deg) * cos(810deg),
-    10em * sin(27deg) * sin(810deg),
-    10em * cos(27deg)
-  );
+  transform: translate3d(0em, 4.5399em, 8.91007em);
   animation: beat 2s linear infinite;
   animation-delay: -150ms;
 }
 .container span:nth-child(16) {
-  transform: translate3d(
-    10em * sin(28.8deg) * cos(864deg),
-    10em * sin(28.8deg) * sin(864deg),
-    10em * cos(28.8deg)
-  );
+  transform: translate3d(-3.89747em, 2.83168em, 8.76307em);
   animation: beat 2s linear infinite;
   animation-delay: -160ms;
 }
 .container span:nth-child(17) {
-  transform: translate3d(
-    10em * sin(30.6deg) * cos(918deg),
-    10em * sin(30.6deg) * sin(918deg),
-    10em * cos(30.6deg)
-  );
+  transform: translate3d(-4.84127em, -1.57302em, 8.60742em);
   animation: beat 2s linear infinite;
   animation-delay: -170ms;
 }
 .container span:nth-child(18) {
-  transform: translate3d(
-    10em * sin(32.4deg) * cos(972deg),
-    10em * sin(32.4deg) * sin(972deg),
-    10em * cos(32.4deg)
-  );
+  transform: translate3d(-1.6558em, -5.09602em, 8.44328em);
   animation: beat 2s linear infinite;
   animation-delay: -180ms;
 }
 .container span:nth-child(19) {
-  transform: translate3d(
-    10em * sin(34.2deg) * cos(1026deg),
-    10em * sin(34.2deg) * sin(1026deg),
-    10em * cos(34.2deg)
-  );
+  transform: translate3d(3.30384em, -4.54735em, 8.27081em);
   animation: beat 2s linear infinite;
   animation-delay: -190ms;
 }
 .container span:nth-child(20) {
-  transform: translate3d(
-    10em * sin(36deg) * cos(1080deg),
-    10em * sin(36deg) * sin(1080deg),
-    10em * cos(36deg)
-  );
+  transform: translate3d(5.87785em, 0em, 8.09017em);
   animation: beat 2s linear infinite;
   animation-delay: -200ms;
 }
 .container span:nth-child(21) {
-  transform: translate3d(
-    10em * sin(37.8deg) * cos(1134deg),
-    10em * sin(37.8deg) * sin(1134deg),
-    10em * cos(37.8deg)
-  );
+  transform: translate3d(3.60258em, 4.95852em, 7.90155em);
   animation: beat 2s linear infinite;
   animation-delay: -210ms;
 }
 .container span:nth-child(22) {
-  transform: translate3d(
-    10em * sin(39.6deg) * cos(1188deg),
-    10em * sin(39.6deg) * sin(1188deg),
-    10em * cos(39.6deg)
-  );
+  transform: translate3d(-1.96975em, 6.06226em, 7.70513em);
   animation: beat 2s linear infinite;
   animation-delay: -220ms;
 }
 .container span:nth-child(23) {
-  transform: translate3d(
-    10em * sin(41.4deg) * cos(1242deg),
-    10em * sin(41.4deg) * sin(1242deg),
-    10em * cos(41.4deg)
-  );
+  transform: translate3d(-6.28945em, 2.04357em, 7.50111em);
   animation: beat 2s linear infinite;
   animation-delay: -230ms;
 }
 .container span:nth-child(24) {
-  transform: translate3d(
-    10em * sin(43.2deg) * cos(1296deg),
-    10em * sin(43.2deg) * sin(1296deg),
-    10em * cos(43.2deg)
-  );
+  transform: translate3d(-5.5381em, -4.02367em, 7.28969em);
   animation: beat 2s linear infinite;
   animation-delay: -240ms;
 }
 .container span:nth-child(25) {
-  transform: translate3d(
-    10em * sin(45deg) * cos(1350deg),
-    10em * sin(45deg) * sin(1350deg),
-    10em * cos(45deg)
-  );
+  transform: translate3d(0em, -7.07107em, 7.07107em);
   animation: beat 2s linear infinite;
   animation-delay: -250ms;
 }
 .container span:nth-child(26) {
-  transform: translate3d(
-    10em * sin(46.8deg) * cos(1404deg),
-    10em * sin(46.8deg) * sin(1404deg),
-    10em * cos(46.8deg)
-  );
+  transform: translate3d(5.89748em, -4.28477em, 6.84547em);
   animation: beat 2s linear infinite;
   animation-delay: -260ms;
 }
 .container span:nth-child(27) {
-  transform: translate3d(
-    10em * sin(48.6deg) * cos(1458deg),
-    10em * sin(48.6deg) * sin(1458deg),
-    10em * cos(48.6deg)
-  );
+  transform: translate3d(7.13398em, 2.31797em, 6.61312em);
   animation: beat 2s linear infinite;
   animation-delay: -270ms;
 }
 .container span:nth-child(28) {
-  transform: translate3d(
-    10em * sin(50.4deg) * cos(1512deg),
-    10em * sin(50.4deg) * sin(1512deg),
-    10em * cos(50.4deg)
-  );
+  transform: translate3d(2.38102em, 7.32802em, 6.37424em);
   animation: beat 2s linear infinite;
   animation-delay: -280ms;
 }
 .container span:nth-child(29) {
-  transform: translate3d(
-    10em * sin(52.2deg) * cos(1566deg),
-    10em * sin(52.2deg) * sin(1566deg),
-    10em * cos(52.2deg)
-  );
+  transform: translate3d(-4.64441em, 6.39249em, 6.12907em);
   animation: beat 2s linear infinite;
   animation-delay: -290ms;
 }
 .container span:nth-child(30) {
-  transform: translate3d(
-    10em * sin(54deg) * cos(1620deg),
-    10em * sin(54deg) * sin(1620deg),
-    10em * cos(54deg)
-  );
+  transform: translate3d(-8.09017em, 0em, 5.87785em);
   animation: beat 2s linear infinite;
   animation-delay: -300ms;
 }
 .container span:nth-child(31) {
-  transform: translate3d(
-    10em * sin(55.8deg) * cos(1674deg),
-    10em * sin(55.8deg) * sin(1674deg),
-    10em * cos(55.8deg)
-  );
+  transform: translate3d(-4.86146em, -6.69122em, 5.62083em);
   animation: beat 2s linear infinite;
   animation-delay: -310ms;
 }
 .container span:nth-child(32) {
-  transform: translate3d(
-    10em * sin(57.6deg) * cos(1728deg),
-    10em * sin(57.6deg) * sin(1728deg),
-    10em * cos(57.6deg)
-  );
+  transform: translate3d(2.60912em, -8.03004em, 5.35827em);
   animation: beat 2s linear infinite;
   animation-delay: -320ms;
 }
 .container span:nth-child(33) {
-  transform: translate3d(
-    10em * sin(59.4deg) * cos(1782deg),
-    10em * sin(59.4deg) * sin(1782deg),
-    10em * cos(59.4deg)
-  );
+  transform: translate3d(8.18614em, -2.65984em, 5.09041em);
   animation: beat 2s linear infinite;
   animation-delay: -330ms;
 }
 .container span:nth-child(34) {
-  transform: translate3d(
-    10em * sin(61.2deg) * cos(1836deg),
-    10em * sin(61.2deg) * sin(1836deg),
-    10em * cos(61.2deg)
-  );
+  transform: translate3d(7.08947em, 5.1508em, 4.81754em);
   animation: beat 2s linear infinite;
   animation-delay: -340ms;
 }
 .container span:nth-child(35) {
-  transform: translate3d(
-    10em * sin(63deg) * cos(1890deg),
-    10em * sin(63deg) * sin(1890deg),
-    10em * cos(63deg)
-  );
+  transform: translate3d(0em, 8.91007em, 4.5399em);
   animation: beat 2s linear infinite;
   animation-delay: -350ms;
 }
 .container span:nth-child(36) {
-  transform: translate3d(
-    10em * sin(64.8deg) * cos(1944deg),
-    10em * sin(64.8deg) * sin(1944deg),
-    10em * cos(64.8deg)
-  );
+  transform: translate3d(-7.3202em, 5.31844em, 4.25779em);
   animation: beat 2s linear infinite;
   animation-delay: -360ms;
 }
 .container span:nth-child(37) {
-  transform: translate3d(
-    10em * sin(66.6deg) * cos(1998deg),
-    10em * sin(66.6deg) * sin(1998deg),
-    10em * cos(66.6deg)
-  );
+  transform: translate3d(-8.72837em, -2.83602em, 3.97148em);
   animation: beat 2s linear infinite;
   animation-delay: -370ms;
 }
 .container span:nth-child(38) {
-  transform: translate3d(
-    10em * sin(68.4deg) * cos(2052deg),
-    10em * sin(68.4deg) * sin(2052deg),
-    10em * cos(68.4deg)
-  );
+  transform: translate3d(-2.87317em, -8.8427em, 3.68125em);
   animation: beat 2s linear infinite;
   animation-delay: -380ms;
 }
 .container span:nth-child(39) {
-  transform: translate3d(
-    10em * sin(70.2deg) * cos(2106deg),
-    10em * sin(70.2deg) * sin(2106deg),
-    10em * cos(70.2deg)
-  );
+  transform: translate3d(5.53036em, -7.61189em, 3.38738em);
   animation: beat 2s linear infinite;
   animation-delay: -390ms;
 }
 .container span:nth-child(40) {
-  transform: translate3d(
-    10em * sin(72deg) * cos(2160deg),
-    10em * sin(72deg) * sin(2160deg),
-    10em * cos(72deg)
-  );
+  transform: translate3d(9.51057em, 0em, 3.09017em);
   animation: beat 2s linear infinite;
   animation-delay: -400ms;
 }
 .container span:nth-child(41) {
-  transform: translate3d(
-    10em * sin(73.8deg) * cos(2214deg),
-    10em * sin(73.8deg) * sin(2214deg),
-    10em * cos(73.8deg)
-  );
+  transform: translate3d(5.64446em, 7.76894em, 2.78991em);
   animation: beat 2s linear infinite;
   animation-delay: -410ms;
 }
 .container span:nth-child(42) {
-  transform: translate3d(
-    10em * sin(75.6deg) * cos(2268deg),
-    10em * sin(75.6deg) * sin(2268deg),
-    10em * cos(75.6deg)
-  );
+  transform: translate3d(-2.99309em, 9.21177em, 2.4869em);
   animation: beat 2s linear infinite;
   animation-delay: -420ms;
 }
 .container span:nth-child(43) {
-  transform: translate3d(
-    10em * sin(77.4deg) * cos(2322deg),
-    10em * sin(77.4deg) * sin(2322deg),
-    10em * cos(77.4deg)
-  );
+  transform: translate3d(-9.28152em, 3.01575em, 2.18143em);
   animation: beat 2s linear infinite;
   animation-delay: -430ms;
 }
 .container span:nth-child(44) {
-  transform: translate3d(
-    10em * sin(79.2deg) * cos(2376deg),
-    10em * sin(79.2deg) * sin(2376deg),
-    10em * cos(79.2deg)
-  );
+  transform: translate3d(-7.94687em, -5.77374em, 1.87381em);
   animation: beat 2s linear infinite;
   animation-delay: -440ms;
 }
 .container span:nth-child(45) {
-  transform: translate3d(
-    10em * sin(81deg) * cos(2430deg),
-    10em * sin(81deg) * sin(2430deg),
-    10em * cos(81deg)
-  );
+  transform: translate3d(0em, -9.87688em, 1.56434em);
   animation: beat 2s linear infinite;
   animation-delay: -450ms;
 }
 .container span:nth-child(46) {
-  transform: translate3d(
-    10em * sin(82.8deg) * cos(2484deg),
-    10em * sin(82.8deg) * sin(2484deg),
-    10em * cos(82.8deg)
-  );
+  transform: translate3d(8.02638em, -5.8315em, 1.25333em);
   animation: beat 2s linear infinite;
   animation-delay: -460ms;
 }
 .container span:nth-child(47) {
-  transform: translate3d(
-    10em * sin(84.6deg) * cos(2538deg),
-    10em * sin(84.6deg) * sin(2538deg),
-    10em * cos(84.6deg)
-  );
+  transform: translate3d(9.46836em, 3.07646em, 0.94108em);
   animation: beat 2s linear infinite;
   animation-delay: -470ms;
 }
 .container span:nth-child(48) {
-  transform: translate3d(
-    10em * sin(86.4deg) * cos(2592deg),
-    10em * sin(86.4deg) * sin(2592deg),
-    10em * cos(86.4deg)
-  );
+  transform: translate3d(3.08407em, 9.4918em, 0.62791em);
   animation: beat 2s linear infinite;
   animation-delay: -480ms;
 }
 .container span:nth-child(49) {
-  transform: translate3d(
-    10em * sin(88.2deg) * cos(2646deg),
-    10em * sin(88.2deg) * sin(2646deg),
-    10em * cos(88.2deg)
-  );
+  transform: translate3d(-5.87495em, 8.08618em, 0.31411em);
   animation: beat 2s linear infinite;
   animation-delay: -490ms;
 }
 .container span:nth-child(50) {
-  transform: translate3d(
-    10em * sin(90deg) * cos(2700deg),
-    10em * sin(90deg) * sin(2700deg),
-    10em * cos(90deg)
-  );
+  transform: translate3d(-10em, 0em, 0em);
   animation: beat 2s linear infinite;
   animation-delay: -500ms;
 }
 .container span:nth-child(51) {
-  transform: translate3d(
-    10em * sin(91.8deg) * cos(2754deg),
-    10em * sin(91.8deg) * sin(2754deg),
-    10em * cos(91.8deg)
-  );
+  transform: translate3d(-5.87495em, -8.08618em, -0.31411em);
   animation: beat 2s linear infinite;
   animation-delay: -510ms;
 }
 .container span:nth-child(52) {
-  transform: translate3d(
-    10em * sin(93.6deg) * cos(2808deg),
-    10em * sin(93.6deg) * sin(2808deg),
-    10em * cos(93.6deg)
-  );
+  transform: translate3d(3.08407em, -9.4918em, -0.62791em);
   animation: beat 2s linear infinite;
   animation-delay: -520ms;
 }
 .container span:nth-child(53) {
-  transform: translate3d(
-    10em * sin(95.4deg) * cos(2862deg),
-    10em * sin(95.4deg) * sin(2862deg),
-    10em * cos(95.4deg)
-  );
+  transform: translate3d(9.46836em, -3.07646em, -0.94108em);
   animation: beat 2s linear infinite;
   animation-delay: -530ms;
 }
 .container span:nth-child(54) {
-  transform: translate3d(
-    10em * sin(97.2deg) * cos(2916deg),
-    10em * sin(97.2deg) * sin(2916deg),
-    10em * cos(97.2deg)
-  );
+  transform: translate3d(8.02638em, 5.8315em, -1.25333em);
   animation: beat 2s linear infinite;
   animation-delay: -540ms;
 }
 .container span:nth-child(55) {
-  transform: translate3d(
-    10em * sin(99deg) * cos(2970deg),
-    10em * sin(99deg) * sin(2970deg),
-    10em * cos(99deg)
-  );
+  transform: translate3d(0em, 9.87688em, -1.56434em);
   animation: beat 2s linear infinite;
   animation-delay: -550ms;
 }
 .container span:nth-child(56) {
-  transform: translate3d(
-    10em * sin(100.8deg) * cos(3024deg),
-    10em * sin(100.8deg) * sin(3024deg),
-    10em * cos(100.8deg)
-  );
+  transform: translate3d(-7.94687em, 5.77374em, -1.87381em);
   animation: beat 2s linear infinite;
   animation-delay: -560ms;
 }
 .container span:nth-child(57) {
-  transform: translate3d(
-    10em * sin(102.6deg) * cos(3078deg),
-    10em * sin(102.6deg) * sin(3078deg),
-    10em * cos(102.6deg)
-  );
+  transform: translate3d(-9.28152em, -3.01575em, -2.18143em);
   animation: beat 2s linear infinite;
   animation-delay: -570ms;
 }
 .container span:nth-child(58) {
-  transform: translate3d(
-    10em * sin(104.4deg) * cos(3132deg),
-    10em * sin(104.4deg) * sin(3132deg),
-    10em * cos(104.4deg)
-  );
+  transform: translate3d(-2.99309em, -9.21177em, -2.4869em);
   animation: beat 2s linear infinite;
   animation-delay: -580ms;
 }
 .container span:nth-child(59) {
-  transform: translate3d(
-    10em * sin(106.2deg) * cos(3186deg),
-    10em * sin(106.2deg) * sin(3186deg),
-    10em * cos(106.2deg)
-  );
+  transform: translate3d(5.64446em, -7.76894em, -2.78991em);
   animation: beat 2s linear infinite;
   animation-delay: -590ms;
 }
 .container span:nth-child(60) {
-  transform: translate3d(
-    10em * sin(108deg) * cos(3240deg),
-    10em * sin(108deg) * sin(3240deg),
-    10em * cos(108deg)
-  );
+  transform: translate3d(9.51057em, 0em, -3.09017em);
   animation: beat 2s linear infinite;
   animation-delay: -600ms;
 }
 .container span:nth-child(61) {
-  transform: translate3d(
-    10em * sin(109.8deg) * cos(3294deg),
-    10em * sin(109.8deg) * sin(3294deg),
-    10em * cos(109.8deg)
-  );
+  transform: translate3d(5.53036em, 7.61189em, -3.38738em);
   animation: beat 2s linear infinite;
   animation-delay: -610ms;
 }
 .container span:nth-child(62) {
-  transform: translate3d(
-    10em * sin(111.6deg) * cos(3348deg),
-    10em * sin(111.6deg) * sin(3348deg),
-    10em * cos(111.6deg)
-  );
+  transform: translate3d(-2.87317em, 8.8427em, -3.68125em);
   animation: beat 2s linear infinite;
   animation-delay: -620ms;
 }
 .container span:nth-child(63) {
-  transform: translate3d(
-    10em * sin(113.4deg) * cos(3402deg),
-    10em * sin(113.4deg) * sin(3402deg),
-    10em * cos(113.4deg)
-  );
+  transform: translate3d(-8.72837em, 2.83602em, -3.97148em);
   animation: beat 2s linear infinite;
   animation-delay: -630ms;
 }
 .container span:nth-child(64) {
-  transform: translate3d(
-    10em * sin(115.2deg) * cos(3456deg),
-    10em * sin(115.2deg) * sin(3456deg),
-    10em * cos(115.2deg)
-  );
+  transform: translate3d(-7.3202em, -5.31844em, -4.25779em);
   animation: beat 2s linear infinite;
   animation-delay: -640ms;
 }
 .container span:nth-child(65) {
-  transform: translate3d(
-    10em * sin(117deg) * cos(3510deg),
-    10em * sin(117deg) * sin(3510deg),
-    10em * cos(117deg)
-  );
+  transform: translate3d(0em, -8.91007em, -4.5399em);
   animation: beat 2s linear infinite;
   animation-delay: -650ms;
 }
 .container span:nth-child(66) {
-  transform: translate3d(
-    10em * sin(118.8deg) * cos(3564deg),
-    10em * sin(118.8deg) * sin(3564deg),
-    10em * cos(118.8deg)
-  );
+  transform: translate3d(7.08947em, -5.1508em, -4.81754em);
   animation: beat 2s linear infinite;
   animation-delay: -660ms;
 }
 .container span:nth-child(67) {
-  transform: translate3d(
-    10em * sin(120.6deg) * cos(3618deg),
-    10em * sin(120.6deg) * sin(3618deg),
-    10em * cos(120.6deg)
-  );
+  transform: translate3d(8.18614em, 2.65984em, -5.09041em);
   animation: beat 2s linear infinite;
   animation-delay: -670ms;
 }
 .container span:nth-child(68) {
-  transform: translate3d(
-    10em * sin(122.4deg) * cos(3672deg),
-    10em * sin(122.4deg) * sin(3672deg),
-    10em * cos(122.4deg)
-  );
+  transform: translate3d(2.60912em, 8.03004em, -5.35827em);
   animation: beat 2s linear infinite;
   animation-delay: -680ms;
 }
 .container span:nth-child(69) {
-  transform: translate3d(
-    10em * sin(124.2deg) * cos(3726deg),
-    10em * sin(124.2deg) * sin(3726deg),
-    10em * cos(124.2deg)
-  );
+  transform: translate3d(-4.86146em, 6.69122em, -5.62083em);
   animation: beat 2s linear infinite;
   animation-delay: -690ms;
 }
 .container span:nth-child(70) {
-  transform: translate3d(
-    10em * sin(126deg) * cos(3780deg),
-    10em * sin(126deg) * sin(3780deg),
-    10em * cos(126deg)
-  );
+  transform: translate3d(-8.09017em, 0em, -5.87785em);
   animation: beat 2s linear infinite;
   animation-delay: -700ms;
 }
 .container span:nth-child(71) {
-  transform: translate3d(
-    10em * sin(127.8deg) * cos(3834deg),
-    10em * sin(127.8deg) * sin(3834deg),
-    10em * cos(127.8deg)
-  );
+  transform: translate3d(-4.64441em, -6.39249em, -6.12907em);
   animation: beat 2s linear infinite;
   animation-delay: -710ms;
 }
 .container span:nth-child(72) {
-  transform: translate3d(
-    10em * sin(129.6deg) * cos(3888deg),
-    10em * sin(129.6deg) * sin(3888deg),
-    10em * cos(129.6deg)
-  );
+  transform: translate3d(2.38102em, -7.32802em, -6.37424em);
   animation: beat 2s linear infinite;
   animation-delay: -720ms;
 }
 .container span:nth-child(73) {
-  transform: translate3d(
-    10em * sin(131.4deg) * cos(3942deg),
-    10em * sin(131.4deg) * sin(3942deg),
-    10em * cos(131.4deg)
-  );
+  transform: translate3d(7.13398em, -2.31797em, -6.61312em);
   animation: beat 2s linear infinite;
   animation-delay: -730ms;
 }
 .container span:nth-child(74) {
-  transform: translate3d(
-    10em * sin(133.2deg) * cos(3996deg),
-    10em * sin(133.2deg) * sin(3996deg),
-    10em * cos(133.2deg)
-  );
+  transform: translate3d(5.89748em, 4.28477em, -6.84547em);
   animation: beat 2s linear infinite;
   animation-delay: -740ms;
 }
 .container span:nth-child(75) {
-  transform: translate3d(
-    10em * sin(135deg) * cos(4050deg),
-    10em * sin(135deg) * sin(4050deg),
-    10em * cos(135deg)
-  );
+  transform: translate3d(0em, 7.07107em, -7.07107em);
   animation: beat 2s linear infinite;
   animation-delay: -750ms;
 }
 .container span:nth-child(76) {
-  transform: translate3d(
-    10em * sin(136.8deg) * cos(4104deg),
-    10em * sin(136.8deg) * sin(4104deg),
-    10em * cos(136.8deg)
-  );
+  transform: translate3d(-5.5381em, 4.02367em, -7.28969em);
   animation: beat 2s linear infinite;
   animation-delay: -760ms;
 }
 .container span:nth-child(77) {
-  transform: translate3d(
-    10em * sin(138.6deg) * cos(4158deg),
-    10em * sin(138.6deg) * sin(4158deg),
-    10em * cos(138.6deg)
-  );
+  transform: translate3d(-6.28945em, -2.04357em, -7.50111em);
   animation: beat 2s linear infinite;
   animation-delay: -770ms;
 }
 .container span:nth-child(78) {
-  transform: translate3d(
-    10em * sin(140.4deg) * cos(4212deg),
-    10em * sin(140.4deg) * sin(4212deg),
-    10em * cos(140.4deg)
-  );
+  transform: translate3d(-1.96975em, -6.06226em, -7.70513em);
   animation: beat 2s linear infinite;
   animation-delay: -780ms;
 }
 .container span:nth-child(79) {
-  transform: translate3d(
-    10em * sin(142.2deg) * cos(4266deg),
-    10em * sin(142.2deg) * sin(4266deg),
-    10em * cos(142.2deg)
-  );
+  transform: translate3d(3.60258em, -4.95852em, -7.90155em);
   animation: beat 2s linear infinite;
   animation-delay: -790ms;
 }
 .container span:nth-child(80) {
-  transform: translate3d(
-    10em * sin(144deg) * cos(4320deg),
-    10em * sin(144deg) * sin(4320deg),
-    10em * cos(144deg)
-  );
+  transform: translate3d(5.87785em, 0em, -8.09017em);
   animation: beat 2s linear infinite;
   animation-delay: -800ms;
 }
 .container span:nth-child(81) {
-  transform: translate3d(
-    10em * sin(145.8deg) * cos(4374deg),
-    10em * sin(145.8deg) * sin(4374deg),
-    10em * cos(145.8deg)
-  );
+  transform: translate3d(3.30384em, 4.54735em, -8.27081em);
   animation: beat 2s linear infinite;
   animation-delay: -810ms;
 }
 .container span:nth-child(82) {
-  transform: translate3d(
-    10em * sin(147.6deg) * cos(4428deg),
-    10em * sin(147.6deg) * sin(4428deg),
-    10em * cos(147.6deg)
-  );
+  transform: translate3d(-1.6558em, 5.09602em, -8.44328em);
   animation: beat 2s linear infinite;
   animation-delay: -820ms;
 }
 .container span:nth-child(83) {
-  transform: translate3d(
-    10em * sin(149.4deg) * cos(4482deg),
-    10em * sin(149.4deg) * sin(4482deg),
-    10em * cos(149.4deg)
-  );
+  transform: translate3d(-4.84127em, 1.57302em, -8.60742em);
   animation: beat 2s linear infinite;
   animation-delay: -830ms;
 }
 .container span:nth-child(84) {
-  transform: translate3d(
-    10em * sin(151.2deg) * cos(4536deg),
-    10em * sin(151.2deg) * sin(4536deg),
-    10em * cos(151.2deg)
-  );
+  transform: translate3d(-3.89747em, -2.83168em, -8.76307em);
   animation: beat 2s linear infinite;
   animation-delay: -840ms;
 }
 .container span:nth-child(85) {
-  transform: translate3d(
-    10em * sin(153deg) * cos(4590deg),
-    10em * sin(153deg) * sin(4590deg),
-    10em * cos(153deg)
-  );
+  transform: translate3d(0em, -4.5399em, -8.91007em);
   animation: beat 2s linear infinite;
   animation-delay: -850ms;
 }
 .container span:nth-child(86) {
-  transform: translate3d(
-    10em * sin(154.8deg) * cos(4644deg),
-    10em * sin(154.8deg) * sin(4644deg),
-    10em * cos(154.8deg)
-  );
+  transform: translate3d(3.44463em, -2.50267em, -9.04827em);
   animation: beat 2s linear infinite;
   animation-delay: -860ms;
 }
 .container span:nth-child(87) {
-  transform: translate3d(
-    10em * sin(156.6deg) * cos(4698deg),
-    10em * sin(156.6deg) * sin(4698deg),
-    10em * cos(156.6deg)
-  );
+  transform: translate3d(3.7771em, 1.22725em, -9.17755em);
   animation: beat 2s linear infinite;
   animation-delay: -870ms;
 }
 .container span:nth-child(88) {
-  transform: translate3d(
-    10em * sin(158.4deg) * cos(4752deg),
-    10em * sin(158.4deg) * sin(4752deg),
-    10em * cos(158.4deg)
-  );
+  transform: translate3d(1.13757em, 3.50107em, -9.29776em);
   animation: beat 2s linear infinite;
   animation-delay: -880ms;
 }
 .container span:nth-child(89) {
-  transform: translate3d(
-    10em * sin(160.2deg) * cos(4806deg),
-    10em * sin(160.2deg) * sin(4806deg),
-    10em * cos(160.2deg)
-  );
+  transform: translate3d(-1.99105em, 2.74045em, -9.40881em);
   animation: beat 2s linear infinite;
   animation-delay: -890ms;
 }
 .container span:nth-child(90) {
-  transform: translate3d(
-    10em * sin(162deg) * cos(4860deg),
-    10em * sin(162deg) * sin(4860deg),
-    10em * cos(162deg)
-  );
+  transform: translate3d(-3.09017em, 0em, -9.51057em);
   animation: beat 2s linear infinite;
   animation-delay: -900ms;
 }
 .container span:nth-child(91) {
-  transform: translate3d(
-    10em * sin(163.8deg) * cos(4914deg),
-    10em * sin(163.8deg) * sin(4914deg),
-    10em * cos(163.8deg)
-  );
+  transform: translate3d(-1.63987em, -2.25709em, -9.60294em);
   animation: beat 2s linear infinite;
   animation-delay: -910ms;
 }
 .container span:nth-child(92) {
-  transform: translate3d(
-    10em * sin(165.6deg) * cos(4968deg),
-    10em * sin(165.6deg) * sin(4968deg),
-    10em * cos(165.6deg)
-  );
+  transform: translate3d(0.76849em, -2.36518em, -9.68583em);
   animation: beat 2s linear infinite;
   animation-delay: -920ms;
 }
 .container span:nth-child(93) {
-  transform: translate3d(
-    10em * sin(167.4deg) * cos(5022deg),
-    10em * sin(167.4deg) * sin(5022deg),
-    10em * cos(167.4deg)
-  );
+  transform: translate3d(2.07467em, -0.6741em, -9.75917em);
   animation: beat 2s linear infinite;
   animation-delay: -930ms;
 }
 .container span:nth-child(94) {
-  transform: translate3d(
-    10em * sin(169.2deg) * cos(5076deg),
-    10em * sin(169.2deg) * sin(5076deg),
-    10em * cos(169.2deg)
-  );
+  transform: translate3d(1.51595em, 1.1014em, -9.82287em);
   animation: beat 2s linear infinite;
   animation-delay: -940ms;
 }
 .container span:nth-child(95) {
-  transform: translate3d(
-    10em * sin(171deg) * cos(5130deg),
-    10em * sin(171deg) * sin(5130deg),
-    10em * cos(171deg)
-  );
+  transform: translate3d(0em, 1.56434em, -9.87688em);
   animation: beat 2s linear infinite;
   animation-delay: -950ms;
 }
 .container span:nth-child(96) {
-  transform: translate3d(
-    10em * sin(172.8deg) * cos(5184deg),
-    10em * sin(172.8deg) * sin(5184deg),
-    10em * cos(172.8deg)
-  );
+  transform: translate3d(-1.01397em, 0.73669em, -9.92115em);
   animation: beat 2s linear infinite;
   animation-delay: -960ms;
 }
 .container span:nth-child(97) {
-  transform: translate3d(
-    10em * sin(174.6deg) * cos(5238deg),
-    10em * sin(174.6deg) * sin(5238deg),
-    10em * cos(174.6deg)
-  );
+  transform: translate3d(-0.89502em, -0.29081em, -9.95562em);
   animation: beat 2s linear infinite;
   animation-delay: -970ms;
 }
 .container span:nth-child(98) {
-  transform: translate3d(
-    10em * sin(176.4deg) * cos(5292deg),
-    10em * sin(176.4deg) * sin(5292deg),
-    10em * cos(176.4deg)
-  );
+  transform: translate3d(-0.19403em, -0.59717em, -9.98027em);
   animation: beat 2s linear infinite;
   animation-delay: -980ms;
 }
 .container span:nth-child(99) {
-  transform: translate3d(
-    10em * sin(178.2deg) * cos(5346deg),
-    10em * sin(178.2deg) * sin(5346deg),
-    10em * cos(178.2deg)
-  );
+  transform: translate3d(0.18463em, -0.25412em, -9.99507em);
   animation: beat 2s linear infinite;
   animation-delay: -990ms;
 }
 .container span:nth-child(100) {
-  transform: translate3d(
-    10em * sin(180deg) * cos(5400deg),
-    10em * sin(180deg) * sin(5400deg),
-    10em * cos(180deg)
-  );
+  transform: translate3d(0em, 0em, -10em);
   animation: beat 2s linear infinite;
   animation-delay: -1000ms;
 }
@@ -1121,11 +733,12 @@ a {
   content: "";
   display: block;
   border-radius: 50%;
-  background-color: black;
-  width: 0.2em;
+  background-color: #fbba1d;
+  width: 0.3em;
   height: 0.2em;
   animation: spin 10s linear reverse infinite;
 }
+
 @keyframes spin {
   0% {
     transform: rotateY(0);
@@ -1151,4 +764,15 @@ a {
   100% {
     font-size: 1em;
   }
+}
+
+.text-box {
+  width: 525px;
+  height: 518px;
+  background-color: #ffffff;
+  padding: 3rem 2rem;
+}
+.text-box p {
+  font-size: 1.2rem;
+  color: #0b4b4d;
 }
