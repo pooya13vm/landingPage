@@ -1,0 +1,35 @@
+@font-face {
+  font-family: poppins;
+  src: url(../font/Poppins-Medium.ttf);
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #e6e6ec;
+  padding-left: 3%;
+}
+#logo-section {
+  margin: 6% 0 6% 0;
+}
+.yellow-box {
+  width: 313px;
+  height: 313px;
+  background-color: #fcc644;
+  margin-right: 2px;
+  padding: 29px 21px;
+  font-family: poppins;
+}
+.yellow-box p:first-child {
+  font-size: 18px;
+}
+.yellow-box p:last-child {
+  font-size: 25px;
+  font-weight: bolder;
+}
+.video-box {
+  height: 313px;
+  width: 313px;
+  padding: 0;
+  margin: 0;
+}
