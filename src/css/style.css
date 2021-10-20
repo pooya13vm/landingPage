@@ -8,10 +8,17 @@
 body {
   background-color: #e6e6ec;
   padding-left: 3%;
+  padding-right: 3%;
 }
 #logo-section {
   margin: 6% 0 6% 0;
 }
+
+#section-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
 .yellow-box {
   width: 313px;
   height: 313px;
@@ -33,6 +40,9 @@ body {
   padding: 0;
   margin: 0;
 }
+#red-anim-section {
+  padding-left: 3%;
+}
 .design_pane_480 {
   display: flex;
   justify-content: center;
@@ -48,7 +58,7 @@ body {
 
   overflow: hidden;
   z-index: -1;
-  background: #fdb777;
+  background: #f9dde1;
 }
 .ball_main,
 .semi_ball {
@@ -58,12 +68,12 @@ body {
   height: 80px;
   width: 80px;
   border-radius: 50%;
-  background: #fda766;
-  box-shadow: 420px 0px 0px 0px #fda766;
+  background: #e0344d;
+  box-shadow: 420px 0px 0px 0px #e0344d;
 }
 .semi_ball {
   box-shadow: none;
-  background: linear-gradient(0deg, transparent 50%, #fd7f2c 50%);
+  background: linear-gradient(0deg, transparent 50%, #dd233e 50%);
 }
 
 .semi_ball:nth-child(3) {
@@ -71,7 +81,7 @@ body {
   animation-timing-function: cubic-bezier(0.45, 0, 0, 0.99);
 }
 .semi_ball:nth-child(2) {
-  background: linear-gradient(180deg, transparent 50%, #fd7f2c 50%);
+  background: linear-gradient(180deg, transparent 50%, #dd233e 50%);
   margin-left: 80px;
   animation-timing-function: cubic-bezier(0.45, 0, 0, 0.99);
   animation: change_second 3s infinite;
@@ -121,4 +131,21 @@ body {
     margin-left: 80px;
     transform: rotateZ(-360deg);
   }
+}
+
+.disc-text {
+  padding-top: 3%;
+  width: 40%;
+}
+.disc-text p:first-child {
+  font-weight: bolder;
+  font-size: 25px;
+  color: #1d9d9c;
+}
+.disc-text p:last-child {
+  font-size: 18px;
+  color: #0b4b4d;
+}
+a {
+  color: #0b4b4d;
 }
