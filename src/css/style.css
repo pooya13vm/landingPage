@@ -787,3 +787,51 @@ a {
   font-size: 1.1rem;
   color: #0b4b4d !important;
 }
+@media screen and (max-width: 770px) {
+  #section-2 {
+    flex-direction: column;
+  }
+  #video-section {
+    justify-content: center;
+  }
+  .animated-box {
+    margin-top: 12%;
+  }
+  .marquee {
+    width: 95%;
+  }
+  #discrioption {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  .text-box {
+    margin: auto;
+    width: 85%;
+    height: max-content;
+    padding: 1.5rem 1.5rem;
+  }
+  .star-animated-box {
+    margin-left: 7.5%;
+  }
+  #logo-section {
+    margin: 12% auto;
+    text-align: center;
+  }
+  img {
+    width: 85%;
+  }
+  .text-box p {
+    font-size: 1rem;
+  }
+  .disc-text p:first-child {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 657px) {
+  .yellow-box {
+    width: 80%;
+  }
+  .video-box {
+    width: 80%;
+  }
+}
