@@ -186,7 +186,7 @@ a {
   padding-left: 0%; /* show the marquee just outside the paragraph */
   animation: marquee 10s linear infinite;
   color: #0b4b4d;
-  font-size: 1.6rem;
+  font-size: 3rem;
   font-family: poppins-bold;
   font-weight: bold;
   text-transform: uppercase;
