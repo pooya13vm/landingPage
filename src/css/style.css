@@ -30,6 +30,7 @@ img {
   display: flex;
   justify-content: space-around;
   margin-left: 4%;
+  overflow: hidden;
 }
 
 .yellow-box {
@@ -71,7 +72,7 @@ img {
 
   overflow: hidden;
   z-index: -1;
-  background: #f9dde1;
+  background: #fab1a0;
 }
 .ball_main,
 .semi_ball {
@@ -81,12 +82,12 @@ img {
   height: 80px;
   width: 80px;
   border-radius: 50%;
-  background: #e0344d;
-  box-shadow: 420px 0px 0px 0px #e0344d;
+  background: #ff7675;
+  box-shadow: 420px 0px 0px 0px #ff7675;
 }
 .semi_ball {
   box-shadow: none;
-  background: linear-gradient(0deg, transparent 50%, #dd233e 50%);
+  background: linear-gradient(0deg, transparent 50%, #d63031 50%);
 }
 
 .semi_ball:nth-child(3) {
@@ -94,7 +95,7 @@ img {
   animation-timing-function: cubic-bezier(0.45, 0, 0, 0.99);
 }
 .semi_ball:nth-child(2) {
-  background: linear-gradient(180deg, transparent 50%, #dd233e 50%);
+  background: linear-gradient(180deg, transparent 50%, #d63031 50%);
   margin-left: 80px;
   animation-timing-function: cubic-bezier(0.45, 0, 0, 0.99);
   animation: change_second 3s infinite;
