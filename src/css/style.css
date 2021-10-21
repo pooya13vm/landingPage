@@ -1,6 +1,10 @@
 @font-face {
   font-family: poppins;
-  src: url(../font/Poppins-Medium.ttf);
+  src: url(../font/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: poppins-bold;
+  src: url(../font/Poppins-Bold.ttf);
 }
 * {
   box-sizing: border-box;
@@ -9,6 +13,7 @@ body {
   background-color: #e6e6ec;
   padding-left: 4%;
   padding-right: 4%;
+  font-family: poppins;
 }
 #logo-section {
   width: 100%;
@@ -30,14 +35,14 @@ img {
   background-color: #fcc644;
   margin-right: 2px;
   padding: 29px 21px;
-  font-family: poppins;
 }
 .yellow-box p:first-child {
-  font-size: 18px;
+  font-size: 1.2rem;
+  font-weight: 300;
 }
 .yellow-box p:last-child {
-  font-size: 25px;
-  font-weight: bolder;
+  font-size: 1.6rem;
+  font-family: poppins-bold;
 }
 .video-box {
   height: 313px;
@@ -143,12 +148,15 @@ img {
   width: 58%;
 }
 .disc-text p:first-child {
-  font-weight: bolder;
-  font-size: 25px;
+  font-size: 1.6rem;
+  font-family: poppins-bold;
   color: #1d9d9c;
+  line-height: 1.9rem;
+  margin-top: 1rem;
+  width: 17rem;
 }
 .disc-text p:last-child {
-  font-size: 18px;
+  font-size: 1.1rem;
   color: #0b4b4d;
 }
 a {
@@ -164,7 +172,7 @@ a {
 }
 
 .marquee {
-  width: 631px;
+  width: 48%;
   margin: 0 auto;
   white-space: nowrap;
   overflow: hidden;
@@ -178,8 +186,10 @@ a {
   padding-left: 0%; /* show the marquee just outside the paragraph */
   animation: marquee 10s linear infinite;
   color: #0b4b4d;
-  font-size: 25px;
-  font-weight: bolder;
+  font-size: 1.6rem;
+  font-family: poppins-bold;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .marquee span.marquee_span:hover {
@@ -774,6 +784,6 @@ a {
   margin-left: 5px;
 }
 .text-box p {
-  font-size: 1.2rem;
-  color: #0b4b4d;
+  font-size: 1.1rem;
+  color: #0b4b4d !important;
 }
