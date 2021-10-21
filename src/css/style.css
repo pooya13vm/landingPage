@@ -28,13 +28,13 @@ img {
 
 #section-2 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-left: 4%;
   overflow: hidden;
 }
 
 .yellow-box {
-  width: 313px;
+  width: 318px;
   height: 313px;
   background-color: #fcc644;
   margin-right: 2px;
