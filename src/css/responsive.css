@@ -72,8 +72,3 @@
     width: max-content;
   }
 }
-@media screen and (max-width: 1380px) {
-  .video-box {
-    margin-left: 5px;
-  }
-}

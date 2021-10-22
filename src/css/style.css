@@ -49,9 +49,10 @@ body {
 }
 .video-box {
   height: 313px;
-  width: 313px;
+  width: 318px;
   padding: 0;
   margin: 0;
+  overflow: hidden;
 }
 #red-anim-section {
   padding-left: 8%;
