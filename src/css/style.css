@@ -38,7 +38,7 @@ img {
   background-color: #fcc644;
   margin-right: 2px;
   padding: 29px 21px;
-  color: #dd233e;
+  /* color: #dd233e; */
 }
 .yellow-box p:first-child {
   font-size: 1.2rem;
@@ -85,6 +85,18 @@ a {
   margin-top: 16%;
   margin-bottom: 5%;
   position: relative;
+}
+.content__container__list li:nth-child(1) {
+  color: #dd233e;
+}
+.content__container__list li:nth-child(2) {
+  color: #1d9d9c;
+}
+.content__container__list li:nth-child(3) {
+  color: #3a394b;
+}
+.content__container__list li:nth-child(4) {
+  color: #dd233e;
 }
 #discrioption {
   display: flex;
